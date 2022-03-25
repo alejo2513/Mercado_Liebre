@@ -12,3 +12,4 @@ app.get("/", (req, res) => {
 app.get("/register", (req, res) => {
   res.sendFile(path.resolve(__dirname + "/views/register.html"));
 });
+app.listen(PORT, () => console.log("corriendo port 4001"));
